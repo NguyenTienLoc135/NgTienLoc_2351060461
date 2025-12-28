@@ -13,7 +13,7 @@ class _MotionTrackerState extends State<MotionTracker> {
   // Biến đếm số lần lắc
   int _shakeCount = 0;
   // Ngưỡng rung lắc (m/s2)
-  static const double _shakeThreshold = 0.6;
+  static const double _shakeThreshold = 15.0;
   DateTime _lastShakeTime = DateTime.now();
 
   // Màu nền thay đổi theo cường độ
